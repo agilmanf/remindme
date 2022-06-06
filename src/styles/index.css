@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&family=Nunito:wght@200;300;400;600;700&family=Poppins:wght@100;200;300;400;600;700&display=swap");
+
+body,
+html {
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #747474;
+  font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
+  color: #212121;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 36px;
+}
+
+blockquote,
+figure {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.App {
+  position: relative;
+}
+
+.container {
+  margin: auto;
+  max-width: 1280px;
+  width: 90%;
+}
+
+nav {
+  display: flex;
+  max-width: 1280px;
+  width: 90%;
+  padding: 25px 0;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  transform: translate(-50%);
+  left: 50%;
+  z-index: 10;
+}
+
+.nav-menu {
+  display: flex;
+  color: #212121;
+}
+
+.nav-menu .active {
+  font-weight: bold;
+  color: #2d76f9;
+}
+
+.nav-menu .logo {
+  width: 160px;
+  object-fit: contain;
+  margin-right: 85px;
+}
+
+.overflow-image {
+  width: 700px;
+  background-color: #eef4ff;
+  position: absolute;
+  overflow: hidden;
+}
+
+.overflow-image.left {
+  border-bottom-right-radius: 100px;
+  border-top-right-radius: 100px;
+  left: 0px;
+}
+
+.overflow-image.right {
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  right: 0px;
+}

@@ -1,0 +1,35 @@
+#hero {
+  background-color: #eef4ff;
+  padding: 120px 100px 100px 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+#hero .container {
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#hero article {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+#hero aside {
+  width: 590px;
+}
+
+#hero article h1 {
+  font-size: 64px;
+  line-height: 85px;
+}
+
+#hero aside img {
+  width: 100%;
+  object-fit: cover;
+}
