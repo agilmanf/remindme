@@ -1,6 +1,6 @@
 #hero {
   background-color: #eef4ff;
-  padding: 120px 100px 100px 100px;
+  padding: 120px 0;
   border-bottom-left-radius: 100px;
   border-bottom-right-radius: 100px;
 }
@@ -14,14 +14,14 @@
 }
 
 #hero article {
-  width: 500px;
+  width: 50%;
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
 
 #hero aside {
-  width: 590px;
+  width: 50%;
 }
 
 #hero article h1 {

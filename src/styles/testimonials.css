@@ -6,7 +6,7 @@
 
 #testimonial article {
   position: relative;
-  width: 500px;
+  width: 45%;
   display: flex;
   gap: 50px;
   flex-direction: column;

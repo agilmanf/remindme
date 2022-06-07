@@ -58,16 +58,17 @@ a:hover {
 
 .container {
   margin: auto;
+  padding: 0 60px;
   max-width: 1280px;
-  width: 90%;
+  width: 100%;
   box-sizing: border-box;
 }
 
 nav {
   display: flex;
   max-width: 1280px;
-  width: 90%;
-  padding: 25px 0;
+  width: 100%;
+  padding: 25px 60px;
   box-sizing: border-box;
   justify-content: space-between;
   align-items: center;
@@ -105,26 +106,29 @@ nav {
 .nav-menu .logo {
   width: 160px;
   object-fit: contain;
-  margin-right: 85px;
 }
 
 .overflow-image {
-  width: 700px;
+  width: 50%;
   background-color: #eef4ff;
-  position: absolute;
+  position: relative;
   overflow: hidden;
+}
+
+.overflow-image img {
+  height: 100%;
 }
 
 .overflow-image.left {
   border-bottom-right-radius: 100px;
   border-top-right-radius: 100px;
-  left: 0px;
+  left: -15%;
 }
 
 .overflow-image.right {
   border-top-left-radius: 100px;
   border-bottom-left-radius: 100px;
-  right: 0px;
+  right: -15%;
 }
 
 /* Mobile */
@@ -176,7 +180,6 @@ nav {
 
   .overflow-image {
     width: 100vw;
-    height: 500px;
     position: static;
     margin-left: -32px;
   }

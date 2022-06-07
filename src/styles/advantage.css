@@ -2,21 +2,21 @@
   display: flex;
   flex-direction: column;
   gap: 163px;
+  overflow: hidden;
 }
 
 .advantage-details {
-  height: 600px;
   display: flex;
   justify-content: end;
 }
 
 .advantage-details.reverse {
-  justify-content: start;
+  flex-direction: row-reverse;
 }
 
 .advantage-details article {
   position: relative;
-  width: 500px;
+  width: 50%;
   display: flex;
   gap: 50px;
   flex-direction: column;
