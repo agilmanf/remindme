@@ -1,4 +1,3 @@
-import Navbar from "./components/Navbar";
 import Advantage from "./sections/Advantage";
 import Features from "./sections/Features";
 import Footer from "./sections/Footer";
@@ -9,7 +8,6 @@ import UserPaging from "./sections/UserPaging";
 function App() {
   return (
     <div className="App">
-      <Navbar />
       <Hero />
       <Features />
       <Advantage />

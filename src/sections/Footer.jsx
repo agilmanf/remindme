@@ -40,26 +40,28 @@ function Footer() {
               </li>
             </ul>
           </div>
-          <h4 className="social-title">Follow Us</h4>
-          <div className="social-media">
-            <a
-              href="https://web.facebook.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={facebook} alt="facebook" />
-            </a>
-            <a href="https://twitter.com/" target="_blank" rel="noreferrer">
-              <img src={twitter} alt="twitter" />
-            </a>
-            <a
-              href="https://www.linkedin.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={linkedin} alt="linkedin" />
-            </a>
-          </div>
+          <section className="social">
+            <h4 className="social-title">Follow Us</h4>
+            <div className="social-media">
+              <a
+                href="https://web.facebook.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={facebook} alt="facebook" />
+              </a>
+              <a href="https://twitter.com/" target="_blank" rel="noreferrer">
+                <img src={twitter} alt="twitter" />
+              </a>
+              <a
+                href="https://www.linkedin.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={linkedin} alt="linkedin" />
+              </a>
+            </div>
+          </section>
         </section>
       </div>
     </footer>
