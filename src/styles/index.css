@@ -8,6 +8,7 @@ html {
   padding: 0;
   color: #747474;
   font-size: 18px;
+  overflow-x: hidden;
 }
 
 h1,
@@ -109,7 +110,7 @@ nav {
 }
 
 .overflow-image {
-  width: 50%;
+  width: 65%;
   background-color: #eef4ff;
   position: relative;
   overflow: hidden;
@@ -131,14 +132,7 @@ nav {
   right: -15%;
 }
 
-/* Mobile */
-
-@media only screen and (max-width: 480px) {
-  .container {
-    padding: 0px 32px;
-    width: 100%;
-  }
-
+@media only screen and (max-width: 1024px) {
   nav {
     width: 100vw;
     left: 0;
@@ -176,6 +170,15 @@ nav {
 
   nav button {
     display: none;
+  }
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 480px) {
+  .container {
+    padding: 0px 32px;
+    width: 100%;
   }
 
   .overflow-image {

@@ -1,13 +1,12 @@
 #advantage .container {
   display: flex;
   flex-direction: column;
-  gap: 163px;
-  overflow: hidden;
+  gap: 100px;
 }
 
 .advantage-details {
+  width: 100%;
   display: flex;
-  justify-content: end;
 }
 
 .advantage-details.reverse {
@@ -15,7 +14,6 @@
 }
 
 .advantage-details article {
-  position: relative;
   width: 50%;
   display: flex;
   gap: 50px;

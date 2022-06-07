@@ -1,12 +1,10 @@
 #testimonial .container {
-  height: 600px;
   display: flex;
-  justify-content: end;
 }
 
 #testimonial article {
   position: relative;
-  width: 45%;
+  width: 50%;
   display: flex;
   gap: 50px;
   flex-direction: column;
