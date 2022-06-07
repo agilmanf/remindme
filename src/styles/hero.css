@@ -33,3 +33,33 @@
   width: 100%;
   object-fit: cover;
 }
+
+/* Mobile //////////////////////// */
+
+@media only screen and (max-width: 480px) {
+  #hero {
+    padding: 0;
+    padding-top: 150px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  #hero .container {
+    flex-direction: column;
+    row-gap: 40px;
+  }
+
+  #hero article {
+    width: 100%;
+    gap: 40px;
+  }
+
+  #hero article h1 {
+    font-size: 48px;
+  }
+
+  #hero aside {
+    width: 100%;
+    padding: 80px 0;
+  }
+}

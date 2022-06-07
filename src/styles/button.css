@@ -6,7 +6,7 @@
   padding: 24px 0px;
   border-radius: 1500px;
   border: 1px solid transparent;
-  align-self: baseline;
+  /* align-self: baseline; */
   width: 250px;
   box-sizing: border-box;
   cursor: pointer;

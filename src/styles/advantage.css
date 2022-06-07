@@ -27,3 +27,26 @@
   font-size: 36px;
   line-height: 65px;
 }
+
+@media only screen and (max-width: 480px) {
+  .advantage-details {
+    display: block;
+    height: 100%;
+  }
+
+  #advantage .container {
+    display: block;
+    position: static;
+  }
+
+  .advantage-details article {
+    width: 100%;
+    gap: 25px;
+    margin: 50px 0;
+  }
+
+  .advantage-details article h4 {
+    font-size: 24px;
+    line-height: 40px;
+  }
+}

@@ -9,15 +9,22 @@ footer {
 }
 
 .footer-details p {
-  width: 385px;
+  flex: 1;
   margin-right: 40px;
 }
 
-.footer-details ul {
+.footer-list {
+  flex: 1;
+  display: flex;
   width: 180px;
+  gap: 80px;
+}
+
+.footer-details ul {
   margin: 0;
   flex-direction: column;
   gap: 20px;
+  padding: 0;
 }
 
 .footer-details .social-media {
@@ -32,7 +39,7 @@ footer {
 .footer-details li::before {
   content: "●";
   position: absolute;
-  left: -0px;
+  left: 0px;
   color: #2d76f9;
 }
 
@@ -52,4 +59,44 @@ footer {
 
 .social-media a {
   height: fit-content;
+}
+
+.social-title {
+  display: none;
+}
+
+@media only screen and (max-width: 480px) {
+  footer {
+    margin: 50px 0 50px;
+    padding: 0;
+  }
+
+  footer .logo {
+    width: 200px;
+  }
+
+  .footer-details {
+    flex-direction: column;
+  }
+
+  .footer-details ul {
+    width: 100%;
+    padding: 0;
+  }
+
+  .footer-list {
+    width: 100%;
+    padding: 40px 0;
+    gap: 20px;
+  }
+
+  .social-title {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 33px;
+  }
+
+  .social-media {
+    justify-content: start;
+  }
 }

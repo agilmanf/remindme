@@ -10,34 +10,37 @@ function Footer() {
   return (
     <footer id="footer">
       <div className="container">
-        <img src={logo} alt="logo" />
+        <img className="logo" src={logo} alt="logo" />
         <section className="footer-details">
           <p>
             Task deadlines and scheduling applications with various benefits and
             advantages
           </p>
-          <ul>
-            <li>
-              <a>Home</a>
-            </li>
-            <li>
-              <a>Features</a>
-            </li>
-            <li>
-              <a>About Us</a>
-            </li>
-          </ul>
-          <ul>
-            <li>
-              <a>Set Task Better</a>
-            </li>
-            <li>
-              <a>Easy Manage</a>
-            </li>
-            <li>
-              <a>Get Notification</a>
-            </li>
-          </ul>
+          <div className="footer-list">
+            <ul>
+              <li>
+                <a>Home</a>
+              </li>
+              <li>
+                <a>Features</a>
+              </li>
+              <li>
+                <a>About Us</a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a>Set Task Better</a>
+              </li>
+              <li>
+                <a>Easy Manage</a>
+              </li>
+              <li>
+                <a>Get Notification</a>
+              </li>
+            </ul>
+          </div>
+          <h4 className="social-title">Follow Us</h4>
           <div className="social-media">
             <a
               href="https://web.facebook.com/"
